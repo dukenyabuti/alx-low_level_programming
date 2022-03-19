@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_most_numbers - pnts and excludes 2 and 4
+ * print_most_numbers - prints numbers except 2 & 4
  *
- * Return: results
+ *Return: 0
  */
 void print_most_numbers(void)
 {
 	char n = 0;
-	
+
 	while (n <= 9)
 	{
 		if (n != 2 && n != 4)
